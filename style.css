@@ -8,9 +8,6 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 14px;
-}
-
-body {
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -98,6 +95,12 @@ p {
 .social-links a:hover{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
+}
+
+.social-links a:focus-visible {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    outline: 2px solid white;
 }
 
 .attribution {
